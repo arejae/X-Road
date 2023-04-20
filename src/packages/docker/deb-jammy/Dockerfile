@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:kinetic
 RUN export DEBIAN_FRONTEND=noninteractive; \
     apt-get -qq update && \
     apt-get -qq install \
